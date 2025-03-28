@@ -3,6 +3,7 @@ import HeroSection from './Components/HeroSection';
 import About from './Components/About';
 import Service from './Components/Service';
 import Portfullio from './Components/Portfullio';
+import CoreDesign from './Components/CoreDesign';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <About></About>
             <Service></Service>
             <Portfullio></Portfullio>
+            <CoreDesign></CoreDesign>
         </div>
     );
 };
