@@ -14,7 +14,7 @@ const Portfullio = () => {
         <div className="container mx-auto px-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pb-6 gap-12 -mt-20">
             {
                 PortFullios.map((portfullio,index)=>
-                    <div className=" space-y-6">
+                    <div key={index} className=" space-y-6">
                 <img className=" w-full" src={portfullio.image} alt="" />
                 <div className=" flex items-end justify-between">
                   <div className=" space-y-2">

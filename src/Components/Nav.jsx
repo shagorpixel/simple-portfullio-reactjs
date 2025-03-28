@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/Logo.png'
 import { FaBars } from "react-icons/fa6";
@@ -39,8 +39,21 @@ const Nav = () => {
     const toggleItems = ()=>{
         setIsMenuOpen(prev=> !prev)
     }
+    const [isScroll,setIsScroll] = useState(false)
+    const scrollHandle = ()=>{
+        if(window.scrollY>50){
+            setIsScroll(true)
+        }else{
+            setIsScroll(false)
+        }
+        
+    }
+    useEffect(()=>{
+        window.addEventListener('scroll',scrollHandle)
+    },[])
+
     return (
-        <nav id="navBer" className="sticky left-0 top-0 bg-secoundary  ">
+        <nav  className={`sticky z-50 left-0 top-0 bg-secoundary ${isScroll?'shadow-md':''}` }>
         <div className=" container mx-auto px-3 flex items-center justify-between ">
           <Link>
             <img className=' w-[136px]' src={logo} alt="" />
@@ -51,7 +64,7 @@ const Nav = () => {
             </div>
             {/* Dextop menu End */}
             {/* Mobile Items Start */}
-            <div className={` fixed left-0 top-0  h-screen  w-full bg-black/75 transform flex md:hidden items-center justify-center text-white transition ${isMenuOpen ? 'translate-x-0' :'translate-x-full'}`}>
+            <div className={` fixed left-0 top-0  h-screen  w-full bg-black/80 transform flex md:hidden items-center justify-center text-white transition ${isMenuOpen ? 'translate-x-0' :'translate-x-full'}`}>
             <Items toggleItems={toggleItems} ></Items>
             <div onClick={toggleItems} className='text-4xl font-semibold cursor-pointer absolute right-2 top-1'>
             <IoIosClose />
