@@ -6,6 +6,7 @@ import Portfullio from './Components/Portfullio';
 import CoreDesign from './Components/CoreDesign';
 import Testimonial from './Components/Testimonial';
 import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <CoreDesign></CoreDesign>
             <Testimonial></Testimonial>
             <Blog></Blog>
+            <Contact></Contact>
         </div>
     );
 };
