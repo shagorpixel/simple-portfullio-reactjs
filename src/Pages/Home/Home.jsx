@@ -4,6 +4,7 @@ import About from './Components/About';
 import Service from './Components/Service';
 import Portfullio from './Components/Portfullio';
 import CoreDesign from './Components/CoreDesign';
+import Testimonial from './Components/Testimonial';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Service></Service>
             <Portfullio></Portfullio>
             <CoreDesign></CoreDesign>
+            <Testimonial></Testimonial>
         </div>
     );
 };
