@@ -1,4 +1,5 @@
-import { services } from "./Data/Service";
+import { services } from "../Data/Service";
+
 const Service = () => {
     return (
         <section class="py-12">

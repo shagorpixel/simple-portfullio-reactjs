@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/img/hero-image.png'
+import heroImage from '../../../assets/img/hero-image.png'
 const HeroSection = () => {
     return (
         <section className=' bg-secoundary pt-6'>
