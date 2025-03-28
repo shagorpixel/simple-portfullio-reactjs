@@ -8,10 +8,9 @@ import Testimonial from './Components/Testimonial';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 
-
 const Home = () => {
     return (
-        <div>
+        <>
             <HeroSection></HeroSection>
             <About></About>
             <Service></Service>
@@ -20,7 +19,7 @@ const Home = () => {
             <Testimonial></Testimonial>
             <Blog></Blog>
             <Contact></Contact>
-        </div>
+        </>
     );
 };
 

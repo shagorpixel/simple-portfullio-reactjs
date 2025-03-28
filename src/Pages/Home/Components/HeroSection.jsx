@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <p className=" text-base font-normal leading-[150%]">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
                 <div className=" space-x-4">
                   <button className=" bg-black text-white font-bold text-base px-8 py-2">Hire Me</button>
-                  <button className=" hover:bg-black hover:text-white font-bold text-base px-8 py-2 border border-black transition">Hire Me</button>
+                  <button className=" hover:bg-black hover:text-white font-bold text-base px-8 py-2 border border-black transition">Portfolio</button>
                 </div>
             </div>
             <div className=" col-span-12 md:col-span-7">
