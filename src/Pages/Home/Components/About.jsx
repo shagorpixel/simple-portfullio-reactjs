@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section className=" px-3 text-center bg-black py-14 text-white space-y-8">
+        <section className=" px-3 text-center bg-black py-14 text-white space-y-8 max-w-[1800px] mx-auto">
           <div className=" max-w-[810px] mx-auto">
               <h2 className=" font-bold text-4xl leading-[150%] mb-4">About Me</h2>
               <p className=" font-normal text-base ">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>

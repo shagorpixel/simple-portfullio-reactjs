@@ -2,7 +2,7 @@ import React from 'react';
 import { CoreDesigns } from '../Data/CoreDesigns';
 const CoreDesign = () => {
     return (
-        <section  className=" py-8">
+        <section  className=" py-8 max-w-[1800px] mx-auto">
         <div className="container px-3 mx-auto space-y-12 pb-8">
           <div className=" max-w-4xl mx-auto text-center space-y-6">
             <h2 className=" leading-[150%] font-bold text-4xl">Core Design Skills</h2>

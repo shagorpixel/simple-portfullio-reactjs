@@ -3,7 +3,7 @@ import footerLogo from '../assets/img/footer-logo.png'
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
-        <footer className=" bg-black text-white py-16">
+        <footer className=" bg-black text-white py-16 max-w-[1800px] mx-auto">
         <div className=" max-w-3xl mx-auto space-y-10">
             <div className=" flex flex-col md:flex-row space-y-2 md:space-y-0 items-center justify-between">
                 <ul className=" flex space-x-10">

@@ -2,7 +2,7 @@ import { FaTwitter,FaInstagram,FaDribbble,FaFacebook  } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <section className="py-16 bg-secoundary">
+        <section className="py-16 bg-secoundary max-w-[1800px] mx-auto">
             <div className="container px-3 mx-auto space-y-12 md:space-y-0 pb-8 grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
                 <div className=" text-[#1F1F1F] space-y-20">
                 <div className=" space-y-4">

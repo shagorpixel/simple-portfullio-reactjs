@@ -2,7 +2,7 @@ import React from 'react';
 import heroImage from '../../../assets/img/hero-image.png'
 const HeroSection = () => {
     return (
-        <section className=' bg-secoundary pt-6'>
+        <section className=' bg-secoundary pt-6 max-w-[1800px] mx-auto'>
              <div className="container px-3 mx-auto grid grid-cols-12 items-center space-y-16 md:space-y-0">
             <div className=" space-y-4 col-span-12 md:col-span-5 ">
                 <h4 className=" text-[#1F1F1F] font-normal text-xl">UX Designer</h4>

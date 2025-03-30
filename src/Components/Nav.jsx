@@ -53,7 +53,7 @@ const Nav = () => {
     },[])
 
     return (
-        <nav  className={`sticky z-50 left-0 top-0 bg-secoundary ${isScroll?'shadow-md':''}` }>
+        <nav  className={`sticky z-50 left-0 top-0 bg-secoundary ${isScroll?'shadow-md':''} max-w-[1800px] mx-auto` }>
         <div className=" container mx-auto px-3 flex items-center justify-between ">
           <Link>
             <img className=' w-[136px]' src={logo} alt="" />

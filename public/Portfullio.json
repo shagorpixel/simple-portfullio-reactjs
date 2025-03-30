@@ -1,0 +1,123 @@
+[
+    {
+      "id":1,
+      "title": "Online Store for Fashion",
+      "category": "Ecommerce",
+      "image": "https://i.ibb.co.com/pB4Zkt1b/Fashion-Website-Landing-Page-Figma.jpg"
+    },
+    {
+      "id":2,
+      "title": "Electronics Shop",
+      "category": "Ecommerce",
+      "image": "https://i.ibb.co.com/9QZtbKf/electronics-store-landing-page-template-23-2151168338-1.jpg"
+    },
+    {
+     "id":3,
+      "title": "Beauty Product Store",
+      "category": "Ecommerce",
+      "image": "https://i.ibb.co.com/k26r8gbg/online-cosmetics-shop-landing-page-template-suitable-online-shopping-stores-beauty-companies-334580.jpg"
+    },
+    {
+      "id":4,
+      "title": "Handmade Craft Market",
+      "category": "Ecommerce",
+      "image": "https://i.ibb.co.com/8D2xzCcP/arts-hand-craft-landing-page-23-2148915025.jpg"
+    },
+    {
+      "id":5,
+      "title": "Furniture Shopping Website",
+      "category": "Ecommerce",
+      "image": "https://i.ibb.co.com/3m3XLPfQ/1d754e85-f70e-4825-9765-64e5f80a9c0f-cover.png"
+    },
+    {
+      "id":6,
+      "title": "Blockchain Platform Landing Page",
+      "category": "Crypto",
+      "image": "https://i.ibb.co.com/KprNvC3F/blockchain-data-platform-landing-page-template-541075-1282.jpg"
+    },
+    {
+      "id":7,
+      "title": "Cryptocurrency Exchange Dashboard",
+      "category": "Crypto",
+      "image": "https://i.ibb.co.com/twfbShQp/628104180355295-664bf800e69cc.png"
+    },
+    {
+      "id":8,
+      "title": "Crypto Wallet Landing Page Design",
+      "category": "Crypto",
+      "image": "https://i.ibb.co.com/B2nFgLV3/cryptocurrency-landing-page-design-template-23-2149121485.jpg"
+    },
+    {
+      "id":9,
+      "title": "NFT Marketplace Design",
+      "category": "Crypto",
+      "image": "https://i.ibb.co.com/j9K5Dy6S/f7af9ed8-faa5-46c1-9cd0-6d94a7b2909f-cover.png"
+    },
+    {
+      "id":10,
+      "title": "Decentralized Finance (DeFi) Platform",
+      "category": "Crypto",
+      "image": "https://i.ibb.co.com/931PT2f4/still-3ab34da2f27a7cff5e550d92aad6810b.jpg"
+    },
+    {
+      "id":11,
+      "title": "Personal Travel Blog Landing Page",
+      "category": "Blog",
+      "image": "https://i.ibb.co.com/xSDGjPxB/template-travel-landing-page-with-photo-23-2148297214.jpg"
+    },
+    {
+      "id":12,
+      "title": "Tech News Blog Landing Page",
+      "category": "Blog",
+      "image": "https://i.ibb.co.com/3yzk0dgh/4cbdac217574773-Y3-Jvc-Cwy-NTU2-LDIw-MDAs-MTY0-LDA.png"
+    },
+    {
+      "id":13,
+      "title": "Food Recipe Blog Landing Page",
+      "category": "Blog",
+      "image": "https://i.ibb.co.com/p6Jncj51/website-template-preview-81379.jpg"
+    },
+    {
+      "id":14,
+      "title": "Fitness and Wellness Blog Landing Page",
+      "category": "Blog",
+      "image": "https://i.ibb.co.com/ZpFjV4vH/fitness-landing-page-examples-lazar-angelov-1024x815.jpg"
+    },
+    {
+      "id":15,
+      "title": "Photography Blog Landing Page",
+      "category": "Blog",
+      "image": "https://i.ibb.co.com/jCvY52p/flash-photography-landing-page-template-110011-original.jpg"
+    },
+    {
+     "id":16,
+      "title": "Business Analytics Dashboard",
+      "category": "Dashboard",
+      "image": "https://i.ibb.co.com/fdbzGh1Y/sales-dashboard-example.png"
+    },
+    {
+     "id":17,
+      "title": "Sales Performance Dashboard",
+      "category": "Dashboard",
+      "image": "https://i.ibb.co.com/9mr7j8zZ/original-d6c8a9327ed7430d5bc9f14eb7c126b6.jpg"
+    },
+    {
+      "id":18,
+      "title": "Project Management Dashboard",
+      "category": "Dashboard",
+      "image": "https://i.ibb.co.com/NdcTDxhZ/03-Preview-ezgif-com-avif-to-jpg-converter.jpg"
+    },
+    {
+      "id":19,
+      "title": "Customer Support Dashboard",
+      "category": "Dashboard",
+      "image": "https://i.ibb.co.com/KjFSjZvb/still-955697cabb68e3a6499fe2d7d42e2e87-ezgif-com-webp-to-jpg-converter.jpg"
+    },
+    {
+      "id":20,
+      "title": "Social Media Analytics Dashboard",
+      "category": "Dashboard",
+      "image": "https://i.ibb.co.com/wZL6P4RS/social-media-dashboard-ezgif-com-avif-to-jpg-converter.jpg"
+    }
+  ]
+  

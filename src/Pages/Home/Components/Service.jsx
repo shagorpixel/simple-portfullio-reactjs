@@ -2,7 +2,7 @@ import { services } from "../Data/Service";
 
 const Service = () => {
     return (
-        <section className="py-12">
+        <section className="py-12 max-w-[1800px] mx-auto">
         <div className="container px-3 mx-auto space-y-12 pb-8">
           <div className=" max-w-4xl mx-auto text-center space-y-6 ">
             <h2 className=" leading-[150%] font-bold text-4xl">Services</h2>
