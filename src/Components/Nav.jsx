@@ -1,33 +1,48 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/img/Logo.png'
 import { FaBars } from "react-icons/fa6";
 import { IoIosClose } from "react-icons/io";
 
 function Items({toggleItems}) {
     const navItems = [
+        
         {
-            path:'/about',
-            name:'About'
-        },
-        {
-            path:'/services',
-            name:'Services'
-        },
-        {
-            path:'/portfullio',
-            name:'Portfullio'
+            path:'/',
+            name:'Home'
         },
         {
             path:'/blog',
             name:'Blog'
         },
+        {
+            path:'/portfullio',
+            name:'Portfullio'
+        },
+        
+        {
+            path:'/services',
+            name:'Services'
+        }
     ]
     return (
-        <ul id="list_items" className=" flex md:flex-row flex-col items-center justify-center py-5 md:space-x-6  px-3 md:px-0 md:bg-transparent "> 
+        <ul id="list_items" className=" flex md:flex-row flex-col items-center justify-center py-5 md:space-x-8  px-3 md:px-0 md:bg-transparent "> 
               {
                 navItems.map((item,index)=>
-                    <li key={index} onClick={toggleItems}><Link className=" font-bold text-lg hover:text-primary transition" to={item.path}>{item.name}</Link></li>
+                    <li key={index} onClick={toggleItems}>
+                        {/* <Link className=" font-bold text-lg hover:text-primary transition" to={item.path}>{item.name}</Link> */}
+                        <NavLink to={item.path}
+                        
+                        className={({ isActive }) =>
+                            isActive ? " text-primary font-bold text-lg hover:text-primary transition" : "font-bold text-lg hover:text-primary transition"
+                          }
+                        
+                        >
+                            {item.name}
+                            
+                        </NavLink>
+                        
+                        </li>
                 )
               }
         </ul>

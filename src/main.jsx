@@ -4,6 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home.jsx'
+import ServicePage from './Pages/Service/ServicePage.jsx'
+import PortfullioPage from './Pages/Portfullio/PortfullioPage.jsx'
+import BlogPage from './Pages/Blog/BlogPage.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -19,15 +22,15 @@ const router = createBrowserRouter([
       },
       {
         path:'/services',
-        element:<Home></Home>
+        element:<ServicePage></ServicePage>
       },
       {
         path:'/portfullio',
-        element:<Home></Home>
+        element:<PortfullioPage></PortfullioPage>
       },
       {
         path:'/blog',
-        element:<Home></Home>
+        element:<BlogPage></BlogPage>
       },
     ]
   }

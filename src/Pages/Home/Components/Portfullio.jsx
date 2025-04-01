@@ -14,8 +14,8 @@ const Portfullio = () => {
     },[])
 
     return (
-        <section className=" py-8 max-w-[1800px] mx-auto">
-        <div className=" text-center  bg-secoundary pt-10 pb-32">
+        <section className=" max-w-[1800px] mx-auto">
+        <div className=" text-center  bg-secoundary pt-20 pb-32">
           <div className=" max-w-3xl space-y-3 mx-auto">
             <h2 className=" font-bold leading-[150%] text-4xl">My Portfolio</h2>
             <p className=" font-normal text-base leading-[150%] text-[#1F1F1F]">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
@@ -37,7 +37,7 @@ const Portfullio = () => {
                 <div className=" flex items-end justify-between">
                   <div className=" space-y-2">
                     <h2 className=" text-xl font-bold leading-[150%]">{portfullio.title}</h2>
-                    <p className=" text-sm leading-[150%]">{portfullio.category}</p>
+                    <p className=" leading-[150%]  font-bold text-primary/75">{portfullio.category}</p>
                   </div>
                   <div className=" h-9 w-9 bg-primary flex items-center justify-center rounded-full">
                     <span className=" text-white text-xl font-semibold cursor-pointer"><MdArrowOutward /></span>
@@ -51,7 +51,7 @@ const Portfullio = () => {
         {/* portfullio Wrapper End */}
         {
           (filterData.length>6 && filterData.length>lastSlice)  &&
-        <div className=" text-center">
+        <div className=" text-center mb-8">
           <button onClick={()=>setLastSlice(prev=>prev+3)} className=" bg-primary font-semibold rounded py-1 px-4 text-white cursor-pointer"> Load more...</button>
         </div>
         }
