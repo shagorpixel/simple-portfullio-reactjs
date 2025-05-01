@@ -1,5 +1,8 @@
-import { useEffect, useState } from "react"
-import { MdArrowOutward } from "react-icons/md";
+import React, { useEffect, useState,Suspense } from "react"
+import Loading from "../../../Components/Loading";
+// import SinglePortfullio from "./SinglePortfullio";
+const SinglePortfullio = React.lazy(()=> import("./SinglePortfullio"))
+
 const categories = ['All','Crypto','Ecommerce','Blog','Dashboard']
 const Portfullio = () => {
     const [portfullios,setPortfullios] = useState([]);
@@ -14,7 +17,7 @@ const Portfullio = () => {
     },[])
 
     return (
-        <section className=" max-w-[1800px] mx-auto">
+      <section className=" max-w-[1800px] mx-auto">
         <div className=" text-center  bg-secoundary pt-20 pb-32">
           <div className=" max-w-3xl space-y-3 mx-auto">
             <h2 className=" font-bold leading-[150%] text-4xl">My Portfolio</h2>
@@ -31,20 +34,11 @@ const Portfullio = () => {
         {/* portfullio Wrapper Start */}
         <div className="container mx-auto px-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pb-6 gap-12 -mt-20">
             {
-              filterData.slice(0,lastSlice).map((portfullio)=>
-                    <div key={portfullio.id} className=" space-y-6 shadow p-4 bg-white rounded transition">
-                <img className=" w-full" src={portfullio.image} alt="" />
-                <div className=" flex items-end justify-between">
-                  <div className=" space-y-2">
-                    <h2 className=" text-xl font-bold leading-[150%]">{portfullio.title}</h2>
-                    <p className=" leading-[150%]  font-bold text-primary/75">{portfullio.category}</p>
-                  </div>
-                  <div className=" h-9 w-9 bg-primary flex items-center justify-center rounded-full">
-                    <span className=" text-white text-xl font-semibold cursor-pointer"><MdArrowOutward /></span>
-                  </div>
-                </div>
-              </div>
-                )
+              filterData.slice(0,lastSlice).map(portfullio=>
+                <Suspense  fallback={<Loading></Loading>} >
+                  <SinglePortfullio key={portfullio.id} portfullio={portfullio} />
+                </Suspense>
+              )
             }
             
         </div>
