@@ -1,4 +1,5 @@
 import { MdArrowOutward } from "react-icons/md";
+import { Link } from "react-router-dom";
 const SinglePortfullio = ({portfullio}) => {
     return (
         <div key={portfullio.id} className=" space-y-6 shadow p-4 bg-white rounded transition">
@@ -9,7 +10,7 @@ const SinglePortfullio = ({portfullio}) => {
             <p className=" leading-[150%]  font-bold text-primary/75">{portfullio.category}</p>
           </div>
           <div className=" h-9 w-9 bg-primary flex items-center justify-center rounded-full">
-            <span className=" text-white text-xl font-semibold cursor-pointer"><MdArrowOutward /></span>
+            <Link to={`/portfullio/${portfullio.id}`} className=" text-white text-xl font-semibold cursor-pointer"><MdArrowOutward /></Link>
           </div>
         </div>
   </div>

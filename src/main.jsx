@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home.jsx'
 import ServicePage from './Pages/Service/ServicePage.jsx'
 import PortfullioPage from './Pages/Portfullio/PortfullioPage.jsx'
 import BlogPage from './Pages/Blog/BlogPage.jsx'
+import SinglePortFullio from './Pages/SinglePortFullio/SinglePortFullio.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/portfullio',
         element:<PortfullioPage></PortfullioPage>
+      },
+      {
+        path:'/portfullio/:id',
+        element:<SinglePortFullio></SinglePortFullio>
       },
       {
         path:'/blog',

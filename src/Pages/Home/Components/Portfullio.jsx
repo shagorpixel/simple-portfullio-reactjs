@@ -26,7 +26,7 @@ const Portfullio = () => {
           <div className=" my-5 space-x-2 space-y-2 md:space-y-0 flex items-center justify-center flex-wrap">
             {
               categories.map(category=>
-                <button onClick={()=>SetSelectedCategory(category)} className={` py-2 px-5 rounded-full cursor-pointer text-lg font-semibold ${selectedCategory==category?'bg-primary text-white':'bg-[#eec2bd]'}`} key={category}>{category}</button>
+                <button onClick={()=>SetSelectedCategory(()=>category)} className={` py-2 px-5 rounded-full cursor-pointer text-lg font-semibold ${selectedCategory==category?'bg-primary text-white':'bg-[#eec2bd]'}`} key={category}>{category}</button>
               )
             }
           </div>

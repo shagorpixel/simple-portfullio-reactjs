@@ -1,123 +1,202 @@
 [
-    {
-      "id":1,
-      "title": "Online Store for Fashion",
-      "category": "Ecommerce",
-      "image": "https://i.ibb.co.com/pB4Zkt1b/Fashion-Website-Landing-Page-Figma.jpg"
-    },
-    {
-      "id":2,
-      "title": "Electronics Shop",
-      "category": "Ecommerce",
-      "image": "https://i.ibb.co.com/9QZtbKf/electronics-store-landing-page-template-23-2151168338-1.jpg"
-    },
-    {
-     "id":3,
-      "title": "Beauty Product Store",
-      "category": "Ecommerce",
-      "image": "https://i.ibb.co.com/k26r8gbg/online-cosmetics-shop-landing-page-template-suitable-online-shopping-stores-beauty-companies-334580.jpg"
-    },
-    {
-      "id":4,
-      "title": "Handmade Craft Market",
-      "category": "Ecommerce",
-      "image": "https://i.ibb.co.com/8D2xzCcP/arts-hand-craft-landing-page-23-2148915025.jpg"
-    },
-    {
-      "id":5,
-      "title": "Furniture Shopping Website",
-      "category": "Ecommerce",
-      "image": "https://i.ibb.co.com/3m3XLPfQ/1d754e85-f70e-4825-9765-64e5f80a9c0f-cover.png"
-    },
-    {
-      "id":6,
-      "title": "Blockchain Platform Landing Page",
-      "category": "Crypto",
-      "image": "https://i.ibb.co.com/KprNvC3F/blockchain-data-platform-landing-page-template-541075-1282.jpg"
-    },
-    {
-      "id":7,
-      "title": "Cryptocurrency Exchange Dashboard",
-      "category": "Crypto",
-      "image": "https://i.ibb.co.com/twfbShQp/628104180355295-664bf800e69cc.png"
-    },
-    {
-      "id":8,
-      "title": "Crypto Wallet Landing Page Design",
-      "category": "Crypto",
-      "image": "https://i.ibb.co.com/B2nFgLV3/cryptocurrency-landing-page-design-template-23-2149121485.jpg"
-    },
-    {
-      "id":9,
-      "title": "NFT Marketplace Design",
-      "category": "Crypto",
-      "image": "https://i.ibb.co.com/j9K5Dy6S/f7af9ed8-faa5-46c1-9cd0-6d94a7b2909f-cover.png"
-    },
-    {
-      "id":10,
-      "title": "Decentralized Finance (DeFi) Platform",
-      "category": "Crypto",
-      "image": "https://i.ibb.co.com/931PT2f4/still-3ab34da2f27a7cff5e550d92aad6810b.jpg"
-    },
-    {
-      "id":11,
-      "title": "Personal Travel Blog Landing Page",
-      "category": "Blog",
-      "image": "https://i.ibb.co.com/xSDGjPxB/template-travel-landing-page-with-photo-23-2148297214.jpg"
-    },
-    {
-      "id":12,
-      "title": "Tech News Blog Landing Page",
-      "category": "Blog",
-      "image": "https://i.ibb.co.com/3yzk0dgh/4cbdac217574773-Y3-Jvc-Cwy-NTU2-LDIw-MDAs-MTY0-LDA.png"
-    },
-    {
-      "id":13,
-      "title": "Food Recipe Blog Landing Page",
-      "category": "Blog",
-      "image": "https://i.ibb.co.com/p6Jncj51/website-template-preview-81379.jpg"
-    },
-    {
-      "id":14,
-      "title": "Fitness and Wellness Blog Landing Page",
-      "category": "Blog",
-      "image": "https://i.ibb.co.com/ZpFjV4vH/fitness-landing-page-examples-lazar-angelov-1024x815.jpg"
-    },
-    {
-      "id":15,
-      "title": "Photography Blog Landing Page",
-      "category": "Blog",
-      "image": "https://i.ibb.co.com/jCvY52p/flash-photography-landing-page-template-110011-original.jpg"
-    },
-    {
-     "id":16,
-      "title": "Business Analytics Dashboard",
-      "category": "Dashboard",
-      "image": "https://i.ibb.co.com/fdbzGh1Y/sales-dashboard-example.png"
-    },
-    {
-     "id":17,
-      "title": "Sales Performance Dashboard",
-      "category": "Dashboard",
-      "image": "https://i.ibb.co.com/9mr7j8zZ/original-d6c8a9327ed7430d5bc9f14eb7c126b6.jpg"
-    },
-    {
-      "id":18,
-      "title": "Project Management Dashboard",
-      "category": "Dashboard",
-      "image": "https://i.ibb.co.com/NdcTDxhZ/03-Preview-ezgif-com-avif-to-jpg-converter.jpg"
-    },
-    {
-      "id":19,
-      "title": "Customer Support Dashboard",
-      "category": "Dashboard",
-      "image": "https://i.ibb.co.com/KjFSjZvb/still-955697cabb68e3a6499fe2d7d42e2e87-ezgif-com-webp-to-jpg-converter.jpg"
-    },
-    {
-      "id":20,
-      "title": "Social Media Analytics Dashboard",
-      "category": "Dashboard",
-      "image": "https://i.ibb.co.com/wZL6P4RS/social-media-dashboard-ezgif-com-avif-to-jpg-converter.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Online Store for Fashion",
+    "category": "Ecommerce",
+    "image": "https://i.ibb.co.com/pB4Zkt1b/Fashion-Website-Landing-Page-Figma.jpg",
+    "description": [
+      "This fashion store design highlights elegance and clarity.\nThe layout ensures a seamless browsing experience.\nUsers can find items effortlessly without visual clutter.\nResponsive styling keeps it looking great on all devices.",
+      "Typography is chosen to enhance readability.\nColor palette reflects brand sophistication.\nProduct grids are well-structured and intuitive.\nAnimations are subtle yet engaging for interaction."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Electronics Shop",
+    "category": "Ecommerce",
+    "image": "https://i.ibb.co.com/9QZtbKf/electronics-store-landing-page-template-23-2151168338-1.jpg",
+    "description": [
+      "This layout caters to tech-savvy customers.\nIt features clean categorization of gadgets.\nThe design draws attention to top-selling products.\nNavigation remains user-friendly throughout.",
+      "A cool-toned palette suggests modern innovation.\nProduct previews include concise descriptions.\nSearch and filter tools are prominently accessible.\nConsistent branding reinforces trust and usability."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Beauty Product Store",
+    "category": "Ecommerce",
+    "image": "https://i.ibb.co.com/k26r8gbg/online-cosmetics-shop-landing-page-template-suitable-online-shopping-stores-beauty-companies-334580.jpg",
+    "description": [
+      "A visually appealing layout for cosmetics enthusiasts.\nSoft colors and curved elements suggest elegance.\nProduct focus is maintained through high-res images.\nThe structure enhances product discovery.",
+      "Navigation is fluid with dropdown support.\nSections are segmented for skincare, makeup, etc.\nCTA buttons are bold but not overwhelming.\nThe responsive design adapts seamlessly to mobile."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Handmade Craft Market",
+    "category": "Ecommerce",
+    "image": "https://i.ibb.co.com/8D2xzCcP/arts-hand-craft-landing-page-23-2148915025.jpg",
+    "description": [
+      "Craft market layout with rustic charm.\nTextures and warm tones bring an artisanal feel.\nProduct cards highlight handmade uniqueness.\nCustomer stories and reviews boost trust.",
+      "Design prioritizes storytelling and emotion.\nSections highlight creator background and process.\nThe experience feels like visiting a real market.\nMinimal animations keep the mood grounded."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Furniture Shopping Website",
+    "category": "Ecommerce",
+    "image": "https://i.ibb.co.com/3m3XLPfQ/1d754e85-f70e-4825-9765-64e5f80a9c0f-cover.png",
+    "description": [
+      "Sleek and modern furniture display layout.\nLarge visuals convey scale and material quality.\nRoom preview sections help visualize fit.\nDesign aids quick category-based browsing.",
+      "The color scheme feels earthy and grounded.\nText sections include short tips and suggestions.\nThe header stays fixed for easy navigation.\nMobile optimization ensures no clutter on small screens."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Blockchain Platform Landing Page",
+    "category": "Crypto",
+    "image": "https://i.ibb.co.com/KprNvC3F/blockchain-data-platform-landing-page-template-541075-1282.jpg",
+    "description": [
+      "A bold, futuristic layout tailored for tech.\nHero section communicates decentralization value.\nIcons and infographics explain key concepts.\nCalls-to-action push users toward onboarding.",
+      "Layout conveys credibility with secure design cues.\nDark themes balance with neon highlights.\nAnimations show real-time metrics or data flow.\nConsistency builds trust in a complex topic."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cryptocurrency Exchange Dashboard",
+    "category": "Crypto",
+    "image": "https://i.ibb.co.com/twfbShQp/628104180355295-664bf800e69cc.png",
+    "description": [
+      "Designed for clarity in complex data environments.\nLive charts, tickers, and notifications present cleanly.\nNavigation enables fast access to portfolios.\nColor indicators show gains and losses effectively.",
+      "A dashboard that emphasizes speed and function.\nFont and spacing decisions reduce eye strain.\nInteractive tables support sorting and filtering.\nSecurity cues are present but non-obtrusive."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Crypto Wallet Landing Page Design",
+    "category": "Crypto",
+    "image": "https://i.ibb.co.com/B2nFgLV3/cryptocurrency-landing-page-design-template-23-2149121485.jpg",
+    "description": [
+      "Promotes a secure and user-friendly crypto wallet.\nMain CTA encourages app download or sign-up.\nSteps to get started are visual and simplified.\nIcons support quick scanning of features.",
+      "Visual hierarchy guides attention smoothly.\nMobile-first design approach is evident.\nInterface looks credible and minimal.\nTestimonial slider adds real-user trust signals."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "NFT Marketplace Design",
+    "category": "Crypto",
+    "image": "https://i.ibb.co.com/j9K5Dy6S/f7af9ed8-faa5-46c1-9cd0-6d94a7b2909f-cover.png",
+    "description": [
+      "Art-centric design that highlights creators.\nNFT cards include quick-view options and likes.\nColorful visuals bring energy and uniqueness.\nSmooth scrolling adds immersive experience.",
+      "Filters allow genre or artist-based discovery.\nHover effects preview item details instantly.\nTypography adds personality and edge.\nSmart contract trust info is clearly visible."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Decentralized Finance (DeFi) Platform",
+    "category": "Crypto",
+    "image": "https://i.ibb.co.com/931PT2f4/still-3ab34da2f27a7cff5e550d92aad6810b.jpg",
+    "description": [
+      "Informative, finance-focused design approach.\nTrust, security, and yield are core design messages.\nDiagrams explain staking and lending visually.\nButton layout guides conversion intuitively.",
+      "Content modules balance between data and marketing.\nTrust badges and audit links offer reassurance.\nMuted tones keep the layout professional.\nDashboard preview teases user experience."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Personal Travel Blog Landing Page",
+    "category": "Blog",
+    "image": "https://i.ibb.co.com/xSDGjPxB/template-travel-landing-page-with-photo-23-2148297214.jpg",
+    "description": [
+      "Wanderlust-themed layout with full-width photos.\nPersonal stories are layered with destination info.\nImage carousels highlight recent adventures.\nInteractive map gives visual route snapshots.",
+      "Typography feels playful yet legible.\nTag-based blog filtering encourages deep dives.\nNewsletter signup integrated into flow.\nComment section blends smoothly with design."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Tech News Blog Landing Page",
+    "category": "Blog",
+    "image": "https://i.ibb.co.com/3yzk0dgh/4cbdac217574773-Y3-Jvc-Cwy-NTU2-LDIw-MDAs-MTY0-LDA.png",
+    "description": [
+      "Modern news layout tailored for fast updates.\nArticle cards have bold headlines and dates.\nSidebar supports trending and categories.\nAd placement is designed not to disrupt flow.",
+      "Monospaced fonts reflect technical tone.\nColor hints match popular tech brand palettes.\nDark mode toggling improves night reading.\nPodcast embed section is a great add-on."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Food Recipe Blog Landing Page",
+    "category": "Blog",
+    "image": "https://i.ibb.co.com/p6Jncj51/website-template-preview-81379.jpg",
+    "description": [
+      "Warm and inviting layout for food lovers.\nImages of dishes draw instant attention.\nRecipe cards include cook time and servings.\nIngredients are formatted for mobile viewing.",
+      "Category filter allows meal-type browsing.\nFont style mimics handwritten recipe notes.\nSeasonal features rotate with soft transitions.\nPrintable version support is a plus."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Fitness and Wellness Blog Landing Page",
+    "category": "Blog",
+    "image": "https://i.ibb.co.com/ZpFjV4vH/fitness-landing-page-examples-lazar-angelov-1024x815.jpg",
+    "description": [
+      "Dynamic and high-energy layout.\nHero section often includes personal transformation.\nWorkout tips appear with visuals and timers.\nNutritional facts shown in tabbed content.",
+      "Fonts are bold and inspirational.\nSubtle gradients suggest health and growth.\nSocial proof includes follower counts.\nCall-to-actions prompt app signups or plans."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Photography Blog Landing Page",
+    "category": "Blog",
+    "image": "https://i.ibb.co.com/jCvY52p/flash-photography-landing-page-template-110011-original.jpg",
+    "description": [
+      "Minimalistic layout emphasizing imagery.\nGrid system ensures perfect visual alignment.\nPosts contain EXIF data and camera info.\nPhotographer’s story enhances user connection.",
+      "Dark theme suits the portfolio look.\nCategories based on genre or equipment.\nHover zoom preview improves engagement.\nFull screen mode for image viewing available."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Business Analytics Dashboard",
+    "category": "Dashboard",
+    "image": "https://i.ibb.co.com/fdbzGh1Y/sales-dashboard-example.png",
+    "description": [
+      "Data visualization is the design core here.\nCharts are real-time, interactive, and colorful.\nKPI summaries are accessible at a glance.\nWidgets are modular for team customization.",
+      "Color codes match industry performance standards.\nThe sidebar toggles for focused mode.\nDownload reports and insights in one click.\nCloud sync maintains continuity across users."
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Sales Performance Dashboard",
+    "category": "Dashboard",
+    "image": "https://i.ibb.co.com/9mr7j8zZ/original-d6c8a9327ed7430d5bc9f14eb7c126b6.jpg",
+    "description": [
+      "Optimized for regional and global sales teams.\nIncludes maps, goals, and quarter breakdowns.\nRevenue trends use clean line charts.\nInteractive tables support deep analysis.",
+      "Downloadable snapshots help in presentations.\nUsers can share views with stakeholders.\nSorting by product or agent is intuitive.\nConsistency ensures onboarding is smooth."
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Project Management Dashboard",
+    "category": "Dashboard",
+    "image": "https://i.ibb.co.com/NdcTDxhZ/03-Preview-ezgif-com-avif-to-jpg-converter.jpg",
+    "description": [
+      "Timeline view helps in tracking project phases.\nTask lists have drag-and-drop functionality.\nCollaboration tools are integrated neatly.\nUser mentions notify directly in-app.",
+      "Dashboard colors reflect project health.\nCharts display team workload accurately.\nQuick filters for overdue or assigned tasks.\nDoc-sharing features add extra productivity."
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Customer Support Dashboard",
+    "category": "Dashboard",
+    "image": "https://i.ibb.co.com/KjFSjZvb/still-955697cabb68e3a6499fe2d7d42e2e87-ezgif-com-webp-to-jpg-converter.jpg",
+    "description": [
+      "Support agent-focused with ticket summaries.\nResponse time tracking and resolution charts.\nConversation history is easy to scan.\nTags allow smart case organization.",
+      "Color indicators show urgency levels.\nQuick reply templates boost speed.\nMetrics section for SLA compliance.\nMulti-channel message aggregation supported."
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Social Media Analytics Dashboard",
+    "category": "Dashboard",
+    "image": "https://i.ibb.co.com/wZL6P4RS/social-media-dashboard-ezgif-com-avif-to-jpg-converter.jpg",
+    "description": [
+      "Tracks engagement metrics across platforms.\nGraphs show follower growth over time.\nTop-performing posts appear first.\nHashtag tracking reveals campaign success.",
+      "Export-ready reports aid marketing teams.\nColors match major social brand palettes.\nInteractive comparison between campaigns.\nContent calendar syncs with actual posts."
+    ]
+  }
+]
